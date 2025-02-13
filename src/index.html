@@ -11,57 +11,62 @@
 
 <body class="font-roboto">
 	<!-- nav bar -->
-	<nav class="container mx-auto">
-		<div class="bg-blue-950 border-b-[1px] border-[#293164] flex justify-around">
-			<div class="py-4">
-				<a href="logo">
-					<img class="w-28" src="assets/goarn.svg">
-				</a>
-			</div>
-			<div class="font-sans text-base flex items-center justify-around">
-				<ul class="flex justify-around items-center space-x-5 py-5 pr-5 border-r-2 border-[#2a3573]">
-					<li>
-						<a class="text-[#a6b5cd] " href="#">Home</a>
-					</li>
-					<li>
-						<a class="text-[#a6b5cd]" href="#">About</a>
+	<div class="bg-blue-950 border-b-[1px] border-[#293164]">
+		<nav class="max-w-[1200px] mx-auto">
+			<div class="flex justify-between">
+				<div class="py-4">
+					<a href="logo">
+						<img class="w-28" src="assets/goarn.svg">
+					</a>
+				</div>
+				<div class="font-sans text-base flex items-center justify-around">
+					<ul class="flex justify-around items-center space-x-5 py-5 pr-5 border-r-2 border-[#2a3573]">
+						<li>
+							<a class="text-[#a6b5cd] " href="#">Home</a>
+						</li>
+						<li>
+							<a class="text-[#a6b5cd]" href="#">About</a>
 
-					</li>
-					<li>
-						<a class="text-[#a6b5cd]" href="#">GOARN Documents</a>
-					</li>
-					<li>
-						<a class="text-[#a6b5cd]" href="#">Updates</a>
-					</li>
-					<li>
-						<a class="text-[#a6b5cd]" href="#">Projects & Activities</a>
-					</li>
-					<li>
-						<a class="text-[#a6b5cd]" href="#">Contact</a>
-					</li>
-				</ul>
-				<div class="m-4
-				">
-					<img class="w-6 h-7 " src="assets/search-magnifying-glass-svgrepo-com.svg">
+						</li>
+						<li>
+							<a class="text-[#a6b5cd]" href="#">GOARN Documents</a>
+						</li>
+						<li>
+							<a class="text-[#a6b5cd]" href="#">Updates</a>
+						</li>
+						<li>
+							<a class="text-[#a6b5cd]" href="#">Projects & Activities</a>
+						</li>
+						<li>
+							<a class="text-[#a6b5cd]" href="#">Contact</a>
+						</li>
+					</ul>
+					<div class="m-4">
+						<img class="w-6 h-7 " src="assets/search-magnifying-glass-svgrepo-com.svg">
+					</div>
 				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
+
+	</div>
 
 	<!-- Hero section -->
-	<section class="container mx-auto">
-		<div class="h-screen bg-[url('./assets/hero-bg.png')] flex items-center">
-			<div class="w-1/2">
-				<h1 class="text-[#ff8c00] text-7xl font-bold ">GLOBAL OUTBREAK ALERT AND RESPONSE NETWORK</h1>
-				<h3 class="text-[#a6b5cd] text-xl">
-					Provides international public health resources to control outbreaks and public health emergencies
-					across the globe.
+	<section class="h-screen1 bg-[url('./assets/hero-bg.png')] py-36 bg-cover">
+		<div class="max-w-[1200px] mx-auto flex ">
+			<div class="w-[45%]">
+				<h1 class="text-[#ff8c00] text-6xl font-bold mb-2">GLOBAL OUTBREAK ALERT AND RESPONSE NETWORK</h1>
+				<h3 class="text-[#a6b5cd] text-2xl mb-2">
+					Provides international public health resources to control outbreaks and public health emergencies across the
+					globe.
 				</h3>
+			</div>
+			<div class="w-[55%]">
+				<img class="w-[60%] ml-auto" src="assets/globe-1348777_1280.webp">
 			</div>
 		</div>
 	</section>
-	
-<!-- Redirect section -->
+
+	<!-- Redirect section -->
 	<section class="container mx-auto flex">
 		<div class="w-1/2 bg-[#e7f0fb] flex items-center mx-4">
 			<a class="m-6" href="">
@@ -90,77 +95,173 @@
 	</section>
 
 	<!-- About section -->
-	<section class="container mx-auto mt-24 mb-2">
-		<div class="mb-4">
-			<h1 class="text-center text-3xl text-[#293267] font-bold">About us</h1>
-			<p class="text-center text-gray-600">ultimate experiences with story,emotion and purpose</p>
-		</div>
 
-		<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-auto p-6">
-			<!-- Left Side: Image -->
-			<div>
-				<img src="assets/goarn-about.png" alt="Conference Image" class="w-full">
+	<section class="mt-24 mb-2">
+		<div class="max-w-[1200px] mx-auto">
+			<div class="mb-4">
+				<h1 class="text-center text-3xl text-[#293267] font-bold">About us</h1>
+				<p class="text-center text-gray-600">ultimate experiences with story,emotion and purpose</p>
 			</div>
-			<!-- Right Side: Text Content -->
-			<div class="flex flex-col space-y-6">
-				<!-- About GOARN -->
-				<div class="bg-[#293267] text-white p-6 border-b-2 border-orange-500">
-					<h2 class="text-xl font-bold">About GOARN</h2>
-					<p class="mt-2 text-sm">
-						We are a WHO network of over 310 technical institutions and networks globally that respond to acute public
-						health events with the deployment of staff and resources to affected countries. Coordinated by an
-						Operational
-						Support Team based at the WHO headquarters in Geneva and governed by a Steering committee, we aim to deliver
-						rapid and effective support to prevent and control infectious diseases outbreaks and public health
-						emergencies
-						when requested.
-					</p>
+
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-auto p-6">
+				<!-- Left Side: Image -->
+				<div>
+					<img src="assets/goarn-about.png" alt="Conference Image" class="w-full">
 				</div>
-
-				<!-- GOARN Steering Committee & Operational Support -->
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-
-					<!-- Steering Committee -->
-					<div class="bg-[#f5f7fa] p-6 border-b-2 border-orange-500">
-						<h3 class="font-bold text-lg">GOARN Steering Committee</h3>
-						<p class="text-sm mt-2">
-							The Steering Committee (SCOM) of the Global outbreak alert and response network (GOARN) is a
-							representative body of 21 partner institutions that oversee the planning, implementation and evaluation of
-							the Network activities and strategic goals. The Committee fulfills the following functions:
-						</p>
-						<ul class="list-disc list-inside text-sm mt-2 space-y-1 pl-3">
-							<li>approving and monitoring the implementation of the Network’s work plan</li>
-							<li>approving the terms of reference and monitoring the activities of Technical Working Groups and
-								Standing Sub-Committees</li>
-							<li>approving the addition of new institutions/organizations/networks to the Network.</li>
-							<li>advocating for the network and representing the network at key public health events.</li>
-						</ul>
-					</div>
-
-					<!-- Operational Support Team -->
-					<div class="bg-[#f5f7fa] p-6 border-b-2 border-orange-500">
-						<h3 class="font-bold text-lg">GOARN Operational Support Team</h3>
-						<p class="text-sm mt-2">
-							The GOARN Operational support team (OST) is based at the World health Organization in Geneva, Switzerland
-							and in various WHO Regional Offices supporting outbreak response at the regional level. The OST
-							facilitates the day to day running of the network and coordinates outbreak response missions, network
-							activities and communications for the Network. You can reach the Operational support team for more
-							information on how to get involved with GOARN.
+				<!-- Right Side: Text Content -->
+				<div class="flex flex-col space-y-6">
+					<!-- About GOARN -->
+					<div class="bg-[#293267] text-white p-6 border-b-2 border-orange-500">
+						<h2 class="text-xl font-bold">About GOARN</h2>
+						<p class="mt-2 text-sm">
+							We are a WHO network of over 310 technical institutions and networks globally that respond to acute public
+							health events with the deployment of staff and resources to affected countries. Coordinated by an
+							Operational
+							Support Team based at the WHO headquarters in Geneva and governed by a Steering committee, we aim to
+							deliver
+							rapid and effective support to prevent and control infectious diseases outbreaks and public health
+							emergencies
+							when requested.
 						</p>
 					</div>
+
+					<!-- GOARN Steering Committee & Operational Support -->
+					<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+						<!-- Steering Committee -->
+						<div class="bg-[#f5f7fa] p-6 border-b-2 border-orange-500">
+							<h3 class="font-bold text-lg">GOARN Steering Committee</h3>
+							<p class="text-sm mt-2">
+								The Steering Committee (SCOM) of the Global outbreak alert and response network (GOARN) is a
+								representative body of 21 partner institutions that oversee the planning, implementation and evaluation
+								of
+								the Network activities and strategic goals. The Committee fulfills the following functions:
+							</p>
+							<ul class="list-disc list-inside text-sm mt-2 space-y-1 pl-3">
+								<li>approving and monitoring the implementation of the Network’s work plan</li>
+								<li>approving the terms of reference and monitoring the activities of Technical Working Groups and
+									Standing Sub-Committees</li>
+								<li>approving the addition of new institutions/organizations/networks to the Network.</li>
+								<li>advocating for the network and representing the network at key public health events.</li>
+							</ul>
+						</div>
+
+						<!-- Operational Support Team -->
+						<div class="bg-[#f5f7fa] p-6 border-b-2 border-orange-500">
+							<h3 class="font-bold text-lg">GOARN Operational Support Team</h3>
+							<p class="text-sm mt-2">
+								The GOARN Operational support team (OST) is based at the World health Organization in Geneva,
+								Switzerland
+								and in various WHO Regional Offices supporting outbreak response at the regional level. The OST
+								facilitates the day to day running of the network and coordinates outbreak response missions, network
+								activities and communications for the Network. You can reach the Operational support team for more
+								information on how to get involved with GOARN.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
+
+			<!-- Button Section -->
+			<div class="text-center py-8">
+				<button class="bg-orange-500 text-white px-4 py-3 font-semibold rounded-md hover:bg-orange-600">
+					Know more about us
+				</button>
+			</div>
+	</section>
+	</div>
+
+	<!-- Media updates section -->
+	<section class="container mx-auto bg-[#293267] pt-20">
+		<div class="text-center pb-5">
+			<h2 class="text-[#ff8c00] text-2xl">Updates</h2>
+			<p class="text-[#8ba0bb]">Explore our latest news,events and stories</p>
 		</div>
 
-		<!-- Button Section -->
+		<div class="flex  border-t-2 border-blue-950">
+			<!-- left section -->
+			<div class="w-1/2 text-center pl-10 pr-10 px-6 border-r-2 border-blue-950 pt-5">
+				<h3 class="text-xl font-semibold text-gray-100">What we do</h3>
+				<p class="text-[#8ba0bb] mb-8">Global outbreak alert and response Network</p>
+				<iframe class="" width="682" height="354" src="https://www.youtube.com/embed/FqyA2w4ITuo" title="Go with GOARN"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				<iframe class="mt-12" width="682" height="354" src="https://www.youtube.com/embed/IFYueB_Dy9I"
+					title="WHO: Global Outbreak Alert and Response Network (GOARN)" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+
+			<!-- Right section -->
+			<div class="w-1/2 pl-10 pr-10 pt-5">
+				<h3 class="text-xl text-center font-semibold text-gray-100">Updates and events</h3>
+				<p class="text-[#8ba0bb] text-center mb-8">Take a look at our latest news and events</p>
+				<div class="border-2 border-[#4f5888] shadow-sm shadow-[#ff8c00]  flex my-5">
+					<div class="w-[173px] h-[186px] overflow-hidden">
+						<img class="max-w-max h-full p-1" src="assets/Anti stigma toolkit.jpg">
+					</div>
+					<div class="flex-1 pl-5">
+						<h4 class="text-base font-semibold text-gray-200 my-2 ">Go.Data released a new virtual course</h4>
+						<p class="text-[#8ba0bb]">Excepteur sint occaecat cupidatat non proident,sunt in culpa qui officia deserunt
+							mollit anim id est...</p>
+						<h4 class="text-[#ff8c00] pt-16">join webinar</h4>
+					</div>
+				</div>
+
+				<div class="border-2 border-[#4f5888] shadow-sm shadow-[#ff8c00]  flex my-10">
+					<div class="w-[173px] h-[186px] overflow-hidden">
+						<img class="max-w-max h-full p-1" src="assets/GOARN-DiSC-2.png">
+					</div>
+					<div class="flex-1 pl-5">
+						<h4 class="text-base font-semibold text-gray-200 my-2 ">Strengthening Global Readiness: GOARN DiSC
+							Coordination Board Launched in Amman </h4>
+						<p class="text-[#8ba0bb]">5-6 February 2025 | Amman, Jordan – The
+							Global Outbreak Alert and Response Network (GOARN) convened a pivotal
+							consultative meeting in Amman, Jordan, on 5–6 February 2025 to establish t...</p>
+						<h4 class="text-[#ff8c00] pt-16">Register</h4>
+					</div>
+				</div>
+
+				<div class="border-2 border-[#4f5888] shadow-sm shadow-[#ff8c00]  flex my-5">
+					<div class="w-[173px] h-[186px] overflow-hidden">
+						<img class="max-w-max h-full p-1" src="assets/33rev.jpg">
+					</div>
+					<div class="flex-1 pl-5">
+						<h4 class="text-base font-semibold text-gray-200 my-2 ">GOARN's Remote Support to Myanmar’s Health Response
+							Amid Ongoing Crisis</h4>
+						<p class="text-[#8ba0bb]">The conflict in Myanmar has resulted
+							in a severe humanitarian crisis, with over 18.6 million people requiring
+							assistance in 2024. The collapse of the public healthcare system, combined...</p>
+						<h4 class="text-[#ff8c00] pt-16">Register</h4>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
 		<div class="text-center py-8">
 			<button class="bg-orange-500 text-white px-4 py-3 font-semibold rounded-md hover:bg-orange-600">
-				Know more about us
+				see all updates
 			</button>
 		</div>
 	</section>
 
-	
+	<!-- Stories section -->
+	<section class= "bg-[#dce5f0] py-12">
+		<div class="max-w-[1200px] mx-auto">
+			<div>
+				<h2 class="text-[#293267] text-xl mb-2 text-center font-semibold">Stories from the field</h2>
+				<p class="text-[#7c90aa] mb-4 text-center">I love GOARN and work with GOARN</p>
+			</div>
+
+			<div>
+				
+			</div>
+		</div>
+	</section>
 
 </body>
+
 </html>
