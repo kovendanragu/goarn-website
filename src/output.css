@@ -737,6 +737,18 @@ video {
   height: 100vh;
 }
 
+.h-\[2px\] {
+  height: 2px;
+}
+
+.h-\[21px\] {
+  height: 21px;
+}
+
+.h-\[217px\] {
+  height: 217px;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -793,6 +805,38 @@ video {
   width: 100%;
 }
 
+.w-\[1\%\] {
+  width: 1%;
+}
+
+.w-\[118\%\] {
+  width: 118%;
+}
+
+.w-\[18\%\] {
+  width: 18%;
+}
+
+.w-\[180PX\] {
+  width: 180PX;
+}
+
+.w-\[180\] {
+  width: 180;
+}
+
+.w-\[180p\] {
+  width: 180p;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .max-w-\[1200px\] {
   max-width: 1200px;
 }
@@ -836,10 +880,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .gap-2 {
@@ -904,12 +944,12 @@ video {
   border-width: 2px;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
+.border-b {
+  border-bottom-width: 1px;
 }
 
-.border-b-\[1px\] {
-  border-bottom-width: 1px;
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-r-2 {
@@ -918,10 +958,6 @@ video {
 
 .border-t-2 {
   border-top-width: 2px;
-}
-
-.border-b {
-  border-bottom-width: 1px;
 }
 
 .border-\[\#293164\] {
@@ -1191,10 +1227,6 @@ video {
   font-family: Roboto, sans-serif;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1327,23 +1359,6 @@ video {
 .invert {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.\[filter\:invert\(5\%\)\] {
-  filter: invert(5%);
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 1024px) {
